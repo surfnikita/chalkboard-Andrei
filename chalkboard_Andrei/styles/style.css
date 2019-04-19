@@ -33,6 +33,9 @@ body{
 	float: left;
 	padding-top: 20px;
 }
+
+/*Начало разработки блока контента*/
+
 .content{
 	padding-top: 20px;
 	max-width: 100%;
@@ -56,7 +59,24 @@ body{
 	border:1px solid black;
 	margin-bottom: 10px;
 }
+.photo_andrey{
+	max-width: 70%;
+	height: auto;
+	background-color: red;
+}
 
+.text_info{
+	max-width: 30%;
+	height: auto;
+	background-color: red;
+}
+
+/*конец разработки блока контента*/
+
+
+
+
+/*start footer*/
 footer{
 	position: relative;
 	min-height: 200px;
@@ -102,3 +122,11 @@ footer{
 	font-family: 'Pangolin', cursive;
 	color: white;
 }
+.bottom-menu a{
+	text-decoration: none;
+}
+.bottom-menu ul a li:hover{
+	
+	opacity: 0.8;
+}
+/*end footer*/
