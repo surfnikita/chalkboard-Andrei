@@ -47,7 +47,9 @@ body{
 }
 
 .fix-menu{
+	padding-top: 10px;
 	position: fixed;
+
 }
 
 /*Начало разработки блока контента*/
@@ -76,17 +78,21 @@ body{
 	border:1px solid black;
 	margin-bottom: 10px;
 }
-.photo_andrey{
-	max-width: 70%;
+
+
+
+/*start obomne*/
+.photo_andrey img{
+	width: 40%;
 	height: auto;
-	background-color: red;
+	float: left;
+	margin-left: 10px;
+	margin-right: 10px;
 }
 
-.text_info{
-	max-width: 30%;
-	height: auto;
-	background-color: red;
-}
+	
+/*end obomne*/
+
 
 /*конец разработки блока контента*/
 
@@ -138,6 +144,13 @@ footer{
 	
 	font-family: 'Pangolin', cursive;
 	color: white;
+}
+.logo a{
+	list-style-type: none;
+	
+	font-family: 'Pangolin', cursive;
+	color: white;
+	text-decoration: none;
 }
 .bottom-menu a{
 	text-decoration: none;
