@@ -7,6 +7,14 @@ body{
 	max-width: 100%;
 	margin: auto;
 }
+h1{
+	display: flex;
+	
+	justify-content: center;
+	padding-top: 30px;
+	font-family: 'Pangolin', cursive;
+	
+}
 .conteiner{
 	margin: auto;
 	max-width: 1180px;
@@ -50,6 +58,17 @@ body{
 	padding-top: 10px;
 	position: fixed;
 
+
+}
+.fix-menu a{
+	text-decoration: none;
+	color: white;
+	cursor: default;
+
+}
+.fix-menu ul a :hover{
+	opacity: 0.8; 
+	cursor: default;
 }
 
 /*Начало разработки блока контента*/
@@ -154,9 +173,11 @@ footer{
 }
 .bottom-menu a{
 	text-decoration: none;
+	cursor: default;
 }
 .bottom-menu ul a li:hover{
 	
 	opacity: 0.8;
+	cursor: default;
 }
 /*end footer*/
