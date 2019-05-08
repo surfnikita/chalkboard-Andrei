@@ -98,8 +98,21 @@ h1{
 	margin-bottom: 10px;
 }
 
+.bay{
+	width: 60px;
+	height: 30px;
+	font-family: 'Pangolin', cursive;
+	border-radius: 10px;
 
 
+}
+
+.good_discribe{
+	float: right;
+	position: relative;
+	right: 10px;
+	top: 200px;
+}
 /*start obomne*/
 .photo_andrey img{
 	width: 40%;
